@@ -73,7 +73,7 @@
 .social {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 75%;
   margin: auto;
 }
 
@@ -81,4 +81,11 @@
   color: white;
   font-size: 5em;
   padding: 8px;
+}
+
+.resume-user {
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
 }

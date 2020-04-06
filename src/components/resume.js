@@ -4,7 +4,11 @@ class Resume extends Component {
     render() {
         return (
             <div>
-                <h1>Resume</h1>
+                <iframe
+                    title="Yash Singh/probe2k | Resume"
+                    src={require('../asset/resume.pdf')}
+                    className="resume-user"                
+                />
             </div>
         );
     }
