@@ -13,14 +13,14 @@
   text-align: center;
   top: 0;
   left: 0;
-  position: absolute;
+  position: static;
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .profile-img {
   height: 300px;
-  padding-top: 5em;
+  padding: 5em;
 }
 
 .name {
