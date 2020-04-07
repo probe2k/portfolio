@@ -10,10 +10,7 @@ function App() {
       <Layout fixedHeader>
         <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Yash Singh / <span><strong>probe2k</strong></span></Link>} scroll>
           <Navigation>
-            <Link to="/resume">Resume</Link>
-            <Link to="/about_me">About Me</Link>
-            <Link to="/project">Project</Link>
-            <Link to="/contact">Contact</Link>
+            <Link to="/resume"><strong>Resume</strong></Link>
           </Navigation>
         </Header>
         <Content>
