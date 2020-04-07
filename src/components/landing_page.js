@@ -7,23 +7,21 @@ class LandingPage extends Component {
             <div style={{ width: '100%', margin: 'auto' }}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <center>
-                            <img
-                                src={require('../asset/profile.png')}
-                                alt="Yash Singh | probe2k"
-                                className="profile-img"
-                            />
-                        </center>
+                        <img
+                            src={require('../asset/profile.png')}
+                            alt="Yash Singh | probe2k"
+                            className="profile-img"
+                        />
 
                         <div className="name">
-                            <h1><center>Yash Singh</center></h1>
+                            <h1>Yash Singh</h1>
                         </div>
 
                         <div className="banner-text">
-                            <h1><center>Machine Learning Enthusiast</center></h1>
+                            <h1>Machine Learning Enthusiast</h1>
                             <hr></hr>
 
-                            <p align="center">
+                            <p>
                                 Android/iOS Developer | Java | Python | DevOps | *NIX SysAdmin | CyberSec | SME - ML/AI | Network Specialist | RESTful API
                             </p>
 
